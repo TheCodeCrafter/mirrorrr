@@ -35,3 +35,7 @@ handlers:
 - url: /.*
   script: mirror.app
   secure: optional
+
+- url: /speedyMedia
+  script: SM-mirror-EXT.app
+  secure: optional
